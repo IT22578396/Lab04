@@ -53,15 +53,15 @@
             android:id="@+id/editNoteFab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
             android:layout_marginEnd="20dp"
             android:layout_marginBottom="20dp"
-            android:clickable="true"
             android:backgroundTint="@color/pink"
-            android:tintMode="@color/white"
+            android:clickable="true"
+            android:contentDescription="editFab"
             android:src="@drawable/done_icon"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentEnd="true"
-            android:contentDescription="editFab" />
+            android:tintMode="@color/white" />
 
     </RelativeLayout>
 </layout>
