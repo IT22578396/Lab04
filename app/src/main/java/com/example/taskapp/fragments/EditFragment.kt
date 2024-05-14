@@ -59,7 +59,7 @@ class EditFragment : Fragment(R.layout.fragment_edit) ,MenuProvider{
                 taskViewModel.updateTask(task)
                 view.findNavController().popBackStack(R.id.homeFragment,false)
             }else{
-                Toast.makeText(context,"Please Enter The  Title",Toast.LENGTH_SHORT).show()
+                Toast.makeText(context,"Please Enter The Title",Toast.LENGTH_SHORT).show()
             }
         }
     }
