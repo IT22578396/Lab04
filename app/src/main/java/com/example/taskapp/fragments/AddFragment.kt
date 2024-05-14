@@ -56,7 +56,7 @@ class AddFragment : Fragment(R.layout.fragment_add),MenuProvider {
             Toast.makeText(addTask.context,"Note Saved",Toast.LENGTH_SHORT).show()
             view.findNavController().popBackStack(R.id.homeFragment,false)
         }else{
-            Toast.makeText(addTask.context,"Please Enter The Task Title",Toast.LENGTH_SHORT).show()
+            Toast.makeText(addTask.context,"Please Enter The Title",Toast.LENGTH_SHORT).show()
         }
     }
 
