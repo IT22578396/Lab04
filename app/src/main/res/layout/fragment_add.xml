@@ -28,12 +28,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="60dp"
             android:fontFamily="sans-serif"
             android:text="Add the tittle"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:textSize="24sp" />
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/addNoteTitle"
@@ -53,12 +53,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:layout_marginTop="155dp"
+            android:layout_marginTop="165dp"
             android:fontFamily="sans-serif"
             android:text="Write your note"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:textSize="24sp" />
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/addNoteDesc"
